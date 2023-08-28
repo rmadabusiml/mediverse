@@ -9,6 +9,7 @@ api_rag_ep = f"{api}/api/v1/llm/rag"
 
 def display_medical_bot():
     st.title("👩‍💻 MediVerse Bot - A Virtual assistant for a medical knowledge base")
+    st.warning('Please note each request will take at least 15 to 20 seconds to complete. Please see the details in the architecture on what happens behind the scene. Moreover, the backend is deployed on a conservative machine to keep the cost low. Please keep an eye on top right hand corner of the app to know the status of your request (eg: you should see a running animation)', icon="⚠️")
 
     # Get user input
     user_input = st.text_area("You:", key="input", placeholder="Ask me a question...")
