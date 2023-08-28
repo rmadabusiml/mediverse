@@ -14,10 +14,10 @@ def display_architecture():
     
     # Design
     st.header("High-level Design of Mediverse Bot")
-    st.image("hu_design.png", width=750) 
+    st.image("hu_design.png", width=1250) 
     
     # Architecture
     st.header("Architecture of Mediverse Bot on Amazon Web Services (AWS)")
-    st.image("hu_architecture.png", width=750) 
+    st.image("hu_architecture.png", width=1250) 
     
 
