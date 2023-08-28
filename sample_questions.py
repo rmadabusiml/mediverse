@@ -9,6 +9,10 @@ def display_sample_questions():
             "prompt": 'Spouse: "My wife has been experiencing hot flashes and mood swings. What could be the reason, and are there any natural and herbal remedies?"'
         },
         {
+            "title": "Role-play: Family Physician & Proactive Patient",
+            "prompt": 'Patient: "Need a holistic health plan that integrates conventional treatments with natural & herbal therapies for a male aged 50 years with family history of heart related issues. Create a weekly plan for 1 week. Recommend some natural and herbal remedies for healthy heart"'
+        },
+        {
             "title": "Role-play: Nutritionist & Fitness Enthusiast",
             "prompt": 'Enthusiast: "I\'ve been trying to bulk up but struggle with muscle recovery. Are there any dietary supplements or herbs that can aid in muscle repair and growth?"'
         },
