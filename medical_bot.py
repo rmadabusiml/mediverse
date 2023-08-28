@@ -12,7 +12,7 @@ def display_medical_bot():
     st.warning('Please note each request will take at least 15 to 20 seconds to complete. Please see the details in the architecture on what happens behind the scene. Moreover, the backend is deployed on a conservative machine to keep the cost low. Please keep an eye on top right hand corner of the app to know the status of your request (eg: you should see a running animation)', icon="⚠️")
 
     # Get user input
-    user_input = st.text_area("You:", key="input", placeholder="Ask me a question...")
+    user_input = st.text_area("You:", key="input", placeholder="Ask me a question... (navigate to sample prompts section for sample questions to ask)")
 
     # Create columns for the buttons
     col1, col2 = st.columns(2)
