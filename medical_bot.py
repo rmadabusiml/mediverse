@@ -5,7 +5,7 @@ from datetime import datetime
 import re
 
 HTTP_OK = 200
-api = os.environ.get("mediverse-endpoint")
+api = os.environ.get("me")
 api_rag_ep = f"{api}/api/v1/llm/rag"
 
 def display_medical_bot():
