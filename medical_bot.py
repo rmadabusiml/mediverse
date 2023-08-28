@@ -1,10 +1,11 @@
+import os
 import streamlit as st
 import requests as req
 from datetime import datetime
 import re
 
 HTTP_OK = 200
-api = "https://7nheym7ury7e7nranqhesshgjy0gzwor.lambda-url.us-east-1.on.aws"
+api = os.environ.get("MEDIVERSE_ENDPOINT")
 api_rag_ep = f"{api}/api/v1/llm/rag"
 
 def display_medical_bot():
