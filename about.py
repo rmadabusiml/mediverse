@@ -1,7 +1,7 @@
 import streamlit as st
 
 def display_about():
-    st.title("About this Medical Bot")
+    st.title("About this Mediverse Bot")
     
     reasons = [
         "Comprehensive Medical Knowledge: With the vast amount of medical information available, it's challenging for both professionals and patients to stay updated. This app consolidates knowledge from various trusted sources, providing a one-stop solution.",
@@ -42,6 +42,21 @@ def display_about():
         "Personalized Treatment: Cross-referencing allows for a more personalized approach, tailoring treatments to individual needs and preferences.",
         "Safety: Checking for drug-herb interactions and contraindications ensures that treatments are safe and effective.",
         "Empowerment: Providing users with a holistic view of their health empowers them to take charge of their well-being."
+    ]
+    for value in values:
+        st.markdown(f"- {value}")
+
+    # Document sources for Mediverse Bot
+    st.header("Document Sources Indexed for Mediverse Bot")
+    values = [
+        "The Gale Encyclopedia of Medicine Vol 1 (637 pages): https://library.uoh.edu.iq/admin/ebooks/71763-gale-encyclopedia-of-medicine.-vol.-1.-2nd-ed.pdf",
+        "The Gale Encyclopedia of Medicine Vol 2 (759 pages): https://library.uoh.edu.iq/admin/ebooks/44687-gale-encyclopedia-of-medicine.-vol.-2.-2nd-ed.pdf",
+        "The Gale Encyclopedia of Medicine Vol 3 (941 pages): https://library.uoh.edu.iq/admin/ebooks/52258-gale-encyclopedia-of-medicine.-vol.-3.-2nd-ed.pdf",
+        "The Gale Encyclopedia of Medicine Vol 4 (940 pages): https://library.uoh.edu.iq/admin/ebooks/18219-gale-encyclopedia-of-medicine.-vol.-4.-2nd-ed.pdf",
+        "The Gale Encyclopedia of Medicine Vol 5 (728 pages): https://library.uoh.edu.iq/admin/ebooks/37429-gale-encyclopedia-of-medicine.-vol.-5.-2nd-ed.pdf",
+        "The Gale Encyclopedia of Surgery & Medical Tests (1932 pages): https://ia803108.us.archive.org/4/items/galeencyclopediaofsurgeryandmedicaltests2ndedition/Gale%20Encyclopedia%20of%20Surgery%20and%20Medical%20Tests%202nd%20Edition.pdf",
+        "The Encyclopedia of Herbal Medicine (338 pages): https://ia601000.us.archive.org/3/items/encyclopediaofherbalmedicine3rdeditiondkpublishing2016/Encyclopedia%20of%20Herbal%20Medicine%20-%203rd%20Edition%20%28DK%20Publishing%29%20%282016%29.pdf",
+        "The Encyclopedia of Natural Medicine (2022 pages): https://ia601809.us.archive.org/24/items/the-encyclopedia-of-natural-medicine_202010/TheEncyclopediaOfNaturalMedicine.pdf"
     ]
     for value in values:
         st.markdown(f"- {value}")

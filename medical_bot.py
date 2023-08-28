@@ -8,7 +8,7 @@ api = "https://7nheym7ury7e7nranqhesshgjy0gzwor.lambda-url.us-east-1.on.aws"
 api_rag_ep = f"{api}/api/v1/llm/rag"
 
 def display_medical_bot():
-    st.title("👩‍💻 MediVerse - A Virtual assistant for a medical knowledge base")
+    st.title("👩‍💻 MediVerse Bot - A Virtual assistant for a medical knowledge base")
 
     # Get user input
     user_input = st.text_area("You:", key="input", placeholder="Ask me a question...")

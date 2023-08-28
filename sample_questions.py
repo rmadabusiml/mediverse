@@ -1,7 +1,7 @@
 import streamlit as st
 
 def display_sample_questions():
-    st.title("Sample Questions")
+    st.title("Sample Prompts")
 
     role_plays = [
         {
