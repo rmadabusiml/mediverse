@@ -7,6 +7,8 @@ import re
 HTTP_OK = 200
 api = os.environ.get("foo")
 
+st.write(f"{api}")
+
 if api is None:
     api = "https://204iebgau9.execute-api.us-east-1.amazonaws.com/prod/"
 
