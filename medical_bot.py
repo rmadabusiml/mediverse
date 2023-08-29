@@ -5,7 +5,7 @@ from datetime import datetime
 import re
 
 HTTP_OK = 200
-api = os.environ.get("FOO")
+api = os.environ.get("foo")
 
 if api is None:
     api = "https://204iebgau9.execute-api.us-east-1.amazonaws.com/prod/"
